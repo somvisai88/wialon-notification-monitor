@@ -4,7 +4,8 @@
   "description": "This is sub system to migrate with Gurtam System",
   "main": "index.js",
   "dependencies": {
-    "npm-git-install": "^0.3.0"
+    "npm-git-install": "^0.3.0",
+    "wialonjs-api": "0.0.8"
   },
   "devDependencies": {},
   "scripts": {
