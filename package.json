@@ -1,0 +1,26 @@
+{
+  "name": "bot-line-mango",
+  "version": "1.0.0",
+  "description": "This is sub system to migrate with Gurtam System",
+  "main": "index.js",
+  "dependencies": {
+    "npm-git-install": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bot-line-mango"
+  },
+  "keywords": [
+    "bot",
+    "line",
+    "message",
+    "mango",
+    "GPS"
+  ],
+  "author": "SOM Visai",
+  "license": "ISC"
+}
