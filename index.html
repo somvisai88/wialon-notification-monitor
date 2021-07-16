@@ -124,13 +124,13 @@ $(document).ready(function () {
 	wialon.core.Session.getInstance().initSession("https://hst-api.wialon.com"); // init session
     // For more info about how to generate token check
     // http://sdk.wialon.com/playground/demo/app_auth_token
-	wialon.core.Session.getInstance().loginToken("80ffb2c06ce418eac04e033e1ef5454cB27E09B10F66FFDDCDD84C40B007ACFAD53ADAE2", "", // try to login
+	wialon.core.Session.getInstance().loginToken("80ffb2c06ce418eac04e033e1ef5454c39FD6E2490454D43BFE822DC63D7A65BA644185C", "", // try to login
 	    function (code) { // login callback
 	    	if (code){ msg(wialon.core.Errors.getErrorText(code)); return; } // exit if error code
 	    	msg("Logged successfully"); 
 		init(); // when login suceed then run init() function/
 	});
-})
+})//
 //7b0aa41874de5af74ff2b20c75fcca6276886732E2E1AA68754033023BD96674EC69DB8A
 //7b0aa41874de5af74ff2b20c75fcca628B8672DB0DDAEBC9309F3A6449D75C0180AD6402
 //https://wialon-notification-monitor-khndb.ondigitalocean.app/
